@@ -1,6 +1,6 @@
 # Health Insurance Cross Sell
 
- <img width="650"  src="images/carro-02.jpg"/>
+![Front Image](images/carro-02.jpg)
 
 <br> <br />
 O objetivo deste projeto é ranquear uma lista de clientes de uma empresa de seguros, utilizando algoritmos de Machine Learning para decidir quais clientes tem uma propensão maior a compra de um seguro de automóvel.
@@ -72,11 +72,11 @@ Aqui estão todos os modelos que foram testados, juntamente com um Cross-Validat
 
   O modelo escolhido foi o Light GBM e os resultados das métricas escolhidas e curvas de Ganho Acumulado e de Lift nos dados de teste, após o Hyperparameter Fine Tunning podem ser vistos a seguir:
 
-  | Model Name |	precision_at_20 |	recall_at_20 |	precision_at_40 |	recall_at_40 |	roc_auc_score |
+  | Model Name |	precision_at_20 |	recall_at_20 |	precision_at_40 |	recall_at_40 | roc_auc_score |
   | --- | ---| --- | --- | --- | --- |
 	| **Light GBM Tunned**	| 0.343566	| 0.565415	| 0.427417	| 0.28042	| 0.922927 |	0.430145	| 0.852171 |
 
-  <img width="650" src="images/gain_lift_curves.png"/>
+![ML Graphs](images/gain_lift_curves.png)
 
 ## 5. Conclusão
 O objetivo do projeto foi alcançado, com a técnica de Learning to Rank utilizada foi possível ranquear os clientes mais propensos a adquirirem a compra do novo seguro. O modelo utilizado conseguiu selecionar 92,29% dos interessados da base de teste selecionando apenas 40% dos clientes, o que corresponde a uma performance 2,3 vezes maior que a utilização de uma base não ranqueada.
